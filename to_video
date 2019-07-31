@@ -1,0 +1,1 @@
+ffmpeg -r 30 -f image2 -i moving-charge-%04d.png -qscale 0 moving-charge.gif
